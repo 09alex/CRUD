@@ -1,0 +1,66 @@
+
+.page-content {
+  .content_container {
+      margin-top: 30px;
+  }
+
+  .border-scroll{
+      overflow-y: scroll;
+
+      @media screen and (min-width: 1760px) {
+          height: 420px;
+      }
+      @media screen and (max-width: 1759px) {
+         height: 300px;
+      }
+      @media screen and (max-width: 1405px) {
+          height: 260px;
+      }
+      @media screen and (max-width: 1263px) {
+          height: 220px;
+      }
+      @media screen and (max-width: 1120px) {
+          max-height: 180px;
+      }
+  }
+
+  .person-file{
+      @media screen and (min-width: 1760px) {
+          height: 210px;
+      }
+      @media screen and (max-width: 1759px) {
+          height: 150px;
+      }
+      @media screen and (max-width: 1405px) {
+          height: 130px;
+      }
+      @media screen and (max-width: 1263px) {
+          height: 110px;
+      }
+      @media screen and (max-width: 1120px) {
+          max-height: 90px;
+      }
+  }
+
+  .person-image{
+      max-width: 100%;
+      object-fit: contain;
+      display: block;
+
+      @media screen and (min-width: 1760px) {
+          max-height: 180px;
+      }
+      @media screen and (max-width: 1759px) {
+          max-height: 130px;
+      }
+      @media screen and (max-width: 1405px) {
+          max-height: 110px;
+      }
+      @media screen and (max-width: 1263px) {
+         max-height: 90px;
+      }
+      @media screen and (max-width: 1120px) {
+          max-height: 70px;
+      }
+  }
+}

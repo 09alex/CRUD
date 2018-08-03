@@ -1,0 +1,55 @@
+.page-content .content_container {
+  margin-top: 30px; }
+.page-content .border-scroll {
+  overflow-y: scroll; }
+  @media screen and (min-width: 1760px) {
+    .page-content .border-scroll {
+      height: 420px; } }
+  @media screen and (max-width: 1759px) {
+    .page-content .border-scroll {
+      height: 300px; } }
+  @media screen and (max-width: 1405px) {
+    .page-content .border-scroll {
+      height: 260px; } }
+  @media screen and (max-width: 1263px) {
+    .page-content .border-scroll {
+      height: 220px; } }
+  @media screen and (max-width: 1120px) {
+    .page-content .border-scroll {
+      max-height: 180px; } }
+@media screen and (min-width: 1760px) {
+  .page-content .person-file {
+    height: 210px; } }
+@media screen and (max-width: 1759px) {
+  .page-content .person-file {
+    height: 150px; } }
+@media screen and (max-width: 1405px) {
+  .page-content .person-file {
+    height: 130px; } }
+@media screen and (max-width: 1263px) {
+  .page-content .person-file {
+    height: 110px; } }
+@media screen and (max-width: 1120px) {
+  .page-content .person-file {
+    max-height: 90px; } }
+.page-content .person-image {
+  max-width: 100%;
+  object-fit: contain;
+  display: block; }
+  @media screen and (min-width: 1760px) {
+    .page-content .person-image {
+      max-height: 180px; } }
+  @media screen and (max-width: 1759px) {
+    .page-content .person-image {
+      max-height: 130px; } }
+  @media screen and (max-width: 1405px) {
+    .page-content .person-image {
+      max-height: 110px; } }
+  @media screen and (max-width: 1263px) {
+    .page-content .person-image {
+      max-height: 90px; } }
+  @media screen and (max-width: 1120px) {
+    .page-content .person-image {
+      max-height: 70px; } }
+
+/*# sourceMappingURL=main.css.map */

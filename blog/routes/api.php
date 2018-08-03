@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['prefix' => 'v1'], function () {
+    Route::get('get-countries', 'APIController@getCountries');
+    Route::get('get-states', 'APIController@getStates');
+    Route::get('preview', 'APIController@getDetail');
+    Route::post('set-customer', 'APIController@setCustomer');
 });
